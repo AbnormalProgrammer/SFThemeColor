@@ -25,7 +25,7 @@ class SFThemeColor: NSObject {
     
     convenience init(_ ownerView:UIView) {
         self.init()
-        objc_setAssociatedObject(self, String.init(self.hashValue), self, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        objc_setAssociatedObject(ownerView, String.init(self.hashValue), self, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         NotificationCenter.default.addObserver(self, selector: #selector(themeChangedAction(_:)), name: SFThemeColor.themeChangedNotificationOfSFThemeColor, object: nil)
         self.currentThemeType = SFThemeColor.globalThemeType
     }

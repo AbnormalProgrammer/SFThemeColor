@@ -23,6 +23,12 @@ class ViewController: UIViewController {
             print(#function,"testButton",hex)
             self.testButton.backgroundColor = self.colorFromHex(hex)
         }
+        self.testTempView = UIView.init()
+        self.view.addSubview(self.testTempView!)
+        self.testTempView?.frame = CGRect.init(x: 100, y: 300, width: 200, height: 200)
+        self.testTempView!.tc.color2.makeColor { hex in
+            self.testTempView!.backgroundColor = self.colorFromHex(hex)
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -47,6 +53,9 @@ class ViewController: UIViewController {
             SFThemeColor.changeGlobalTheme(.Black)
             SFThemeColor.globalThemeType = .Black
         }
+        self.testTempView?.removeFromSuperview()
+        self.testTempView = nil
     }
+    private var testTempView:UIView?
 }
 
