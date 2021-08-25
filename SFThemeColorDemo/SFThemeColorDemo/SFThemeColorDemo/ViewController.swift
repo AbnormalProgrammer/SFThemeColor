@@ -42,6 +42,11 @@ class ViewController: UIViewController {
         return UIColor.init(red: redFloat, green: greenFloat, blue: blueFloat, alpha: 1)
     }
     
+    @IBAction func jumpAction(_ sender: Any) {
+        let controller:SecondViewController = SecondViewController.init()
+        self.present(controller, animated: true) {
+        }
+    }
     @IBOutlet weak var testLabel: UILabel!
     @IBOutlet weak var testView: UIView!
     @IBOutlet weak var testButton: UIButton!

@@ -18,6 +18,7 @@
 		B0B9272626D482BF00EE628C /* UIViewSFThemeColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9272526D482BF00EE628C /* UIViewSFThemeColorExtension.swift */; };
 		B0B9272826D482DD00EE628C /* SFThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9272726D482DD00EE628C /* SFThemeColor.swift */; };
 		B0B9272A26D4832200EE628C /* SFThemeColorAllColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9272926D4832200EE628C /* SFThemeColorAllColors.swift */; };
+		B0B9272C26D49F1000EE628C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9272B26D49F1000EE628C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B0B9272526D482BF00EE628C /* UIViewSFThemeColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewSFThemeColorExtension.swift; sourceTree = "<group>"; };
 		B0B9272726D482DD00EE628C /* SFThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFThemeColor.swift; sourceTree = "<group>"; };
 		B0B9272926D4832200EE628C /* SFThemeColorAllColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFThemeColorAllColors.swift; sourceTree = "<group>"; };
+		B0B9272B26D49F1000EE628C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				B0B926FD26D4828000EE628C /* Assets.xcassets */,
 				B0B926FF26D4828000EE628C /* LaunchScreen.storyboard */,
 				B0B9270226D4828000EE628C /* Info.plist */,
+				B0B9272B26D49F1000EE628C /* SecondViewController.swift */,
 			);
 			path = SFThemeColorDemo;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				B0B926F926D4827F00EE628C /* ViewController.swift in Sources */,
 				B0B9272826D482DD00EE628C /* SFThemeColor.swift in Sources */,
 				B0B926F526D4827F00EE628C /* AppDelegate.swift in Sources */,
+				B0B9272C26D49F1000EE628C /* SecondViewController.swift in Sources */,
 				B0B926F726D4827F00EE628C /* SceneDelegate.swift in Sources */,
 				B0B9272626D482BF00EE628C /* UIViewSFThemeColorExtension.swift in Sources */,
 			);
