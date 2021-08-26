@@ -16,7 +16,7 @@ class SFThemeColor: NSObject {
     // MARK: - lifecycle
     deinit {
         NotificationCenter.default.removeObserver(self)
-        print("\(type(of: self))释放了")
+        print("\(type(of: self))释放了，对象的地址:",self)
     }
     
     override init() {
@@ -26,6 +26,7 @@ class SFThemeColor: NSObject {
     convenience init(_ ownerView:UIView) {
         self.init()
         objc_setAssociatedObject(ownerView, String.init(self.hashValue), self, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        print("引入的视图:",ownerView," 颜色对象:",self)
         NotificationCenter.default.addObserver(self, selector: #selector(themeChangedAction(_:)), name: SFThemeColor.themeChangedNotificationOfSFThemeColor, object: nil)
         self.currentThemeType = SFThemeColor.globalThemeType
     }
