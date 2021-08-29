@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D20A87B26DBBCFA00AE681C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20A87A26DBBCFA00AE681C /* TestView.swift */; };
+		1D20A87D26DBBE1B00AE681C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20A87C26DBBE1B00AE681C /* UIColorExtension.swift */; };
 		B0B926F526D4827F00EE628C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B926F426D4827F00EE628C /* AppDelegate.swift */; };
 		B0B926F726D4827F00EE628C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B926F626D4827F00EE628C /* SceneDelegate.swift */; };
 		B0B926F926D4827F00EE628C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B926F826D4827F00EE628C /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D20A87A26DBBCFA00AE681C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		1D20A87C26DBBE1B00AE681C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		B0B926F126D4827F00EE628C /* SFThemeColorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFThemeColorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B926F426D4827F00EE628C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0B926F626D4827F00EE628C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				B0B926FF26D4828000EE628C /* LaunchScreen.storyboard */,
 				B0B9270226D4828000EE628C /* Info.plist */,
 				B0B9272B26D49F1000EE628C /* SecondViewController.swift */,
+				1D20A87A26DBBCFA00AE681C /* TestView.swift */,
+				1D20A87C26DBBE1B00AE681C /* UIColorExtension.swift */,
 			);
 			path = SFThemeColorDemo;
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 				B0B926F926D4827F00EE628C /* ViewController.swift in Sources */,
 				B0B9272826D482DD00EE628C /* SFThemeColor.swift in Sources */,
 				B0B926F526D4827F00EE628C /* AppDelegate.swift in Sources */,
+				1D20A87B26DBBCFA00AE681C /* TestView.swift in Sources */,
+				1D20A87D26DBBE1B00AE681C /* UIColorExtension.swift in Sources */,
 				B0B9272C26D49F1000EE628C /* SecondViewController.swift in Sources */,
 				B0B926F726D4827F00EE628C /* SceneDelegate.swift in Sources */,
 				B0B9272626D482BF00EE628C /* UIViewSFThemeColorExtension.swift in Sources */,
